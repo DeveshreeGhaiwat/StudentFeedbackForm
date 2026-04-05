@@ -9,7 +9,7 @@ driver.get("file:///Users/deveshreeghaiwat/Documents/StudentFeedbackForm/index.h
 print("🟡 Please fill the form manually in the browser...")
 
 # Wait instead of input (IMPORTANT for Jenkins)
-time.sleep(15)
+time.sleep(100)
 
 # Validation
 if "thank" in driver.page_source.lower() or "submitted" in driver.page_source.lower():
